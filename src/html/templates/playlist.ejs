@@ -1,0 +1,41 @@
+<% include ../partials/head %>
+
+
+<img class="top_wave" src="/assets/images/sound-wave.svg" alt="top sound wave">
+<div class="theme-switch-wrapper">
+    <header class="flex_top absolute">
+        <img src="/assets/images/_ionicons_svg_ios-arrow-back.svg" alt="/assets images arrow back">
+        <h3>playlists</h3>
+        <img src="/assets/images/_ionicons_svg_ios-search.svg" alt="search button">
+    </header>
+
+    <body>
+        <div class="playlists__top">
+            <h1 class="white__h1_text">playlists</h1>
+        </div>
+
+        <div class="carousel" data-flickity='{ "fullscreen": true, "lazyLoad": 1 }'>
+
+            <div class="carousel-cell">
+                <img class="carousel-cell-image" data-flickity-lazyload="/assets/images/pexels-photo-442540.svg">
+            </div>
+
+            <div class=" carousel-cell">
+                <img class="carousel-cell-image"
+                    data-flickity-lazyload="/assets/images/photo-1545224144-b38cd309ef69.svg" />
+            </div>
+
+            <div class="carousel-cell">
+                <img class="carousel-cell-image" data-flickity-lazyload="/assets/images/pexels-photo-949274.svg" />
+
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                </label>
+
+            </div>
+        </div>
+        <img src="/assets/images/pexels-photo-1435457.svg" alt="creepy billede">
+    </body>
+
+    <% include ../partials/nav %>
+    <% include ../partials/after-footer %>

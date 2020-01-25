@@ -1,0 +1,33 @@
+:root {
+    --bg-color: #341931;;
+
+}
+
+[data-theme="light"] {
+
+    --bg-color: #FFF;
+
+}
+
+
+
+
+
+.theme-switch input {
+    display:none;
+  }
+
+
+  .slider {
+    transition: .4s;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+  }
+  

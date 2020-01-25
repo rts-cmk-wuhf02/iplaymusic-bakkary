@@ -1,0 +1,48 @@
+<% include ../partials/head %>
+
+<div class="theme-switch-wrapper">
+    <header class="flex_top">
+        <img src="/assets/images/_ionicons_svg_ios-arrow-back.svg" alt="/assets images arrow back">
+        <h3>Music</h3>
+        <img src="/assets/images/_ionicons_svg_ios-search.svg" alt="search button">
+    </header>
+
+    <body>
+        <h1 class="transparant__h1_text">All Albums</h1>
+
+        <h4>featured Albums</h4>
+        <p>View All</p>
+
+
+        <div class="carousel" data-flickity='{ "fullscreen": true, "lazyLoad": 1 }'>
+
+            <div class="carousel-cell">
+                <img class="carousel-cell-image" data-flickity-lazyload="/assets/images/pexels-photo-1988681.svg">
+            </div>
+
+            <div class=" carousel-cell">
+                <img class="carousel-cell-image" data-flickity-lazyload="/assets/images/pexels-photo-1435457.svg" />
+            </div>
+
+            <div class="carousel-cell">
+                <img class="carousel-cell-image" data-flickity-lazyload="/assets/images/pexels-photo-1816943.svg" />
+
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                </label>
+
+            </div>
+
+        </div>
+
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+        </label>
+
+</div>
+
+<img src="/assets/images/pexels-photo-1435457.svg" alt="creepy billede">
+</body>
+
+<% include ../partials/nav %>
+<% include ../partials/after-footer %>
